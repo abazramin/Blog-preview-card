@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --white-color: hsl(0, 0%, 100%);
+    --gray-color: hsl(0, 0%, 50%);
+    --black-color: hsl(0, 0%, 7%);
+}
+
+
+
+body {
+    font-family: "Figtree", sans-serif;
+}
+
+
+section {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%x;
+    height: 98.5vh;
+}
+
+@media (max-width:560px) {
+    .main-div {
+        width: 300px !important;
+    }
+}
+
+.main-div {
+    width: 400px;
+    background-color: var(--white-color);
+    padding: 20px 5px;
+    border-radius: 12px;
+    box-shadow: 20px 20px 20px var(--black-color);
+}
+
+.main-div .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img img {
+    border-radius: 12px;
+    width: 90%;
+}
+
+
+.text {
+    padding: 0 25px;
+}
+
+.text h6 {
+    background-color: var(--primary-color);
+    width: 50px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.text h1 {
+    font-weight: bold;
+}
+
+.text p {
+    color: var(--gray-color);
+    line-height: 20px;
+}
+
+
+.avtar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avtar img {
+    width: 30px;
+    height: 30px;
+}
